@@ -26,7 +26,8 @@ await connectCloudinary();
 const allowedOrigins = new Set([
   'http://localhost:5173',
   'https://greencart-deploy-6nm9.vercel.app',
-  'https://greencart-deploy-3ivd.vercel.app' // Added the new frontend deployment URL
+  'https://greencart-deploy-3ivd.vercel.app',
+  'https://green-cart-theta-three.vercel.app/' // Added the new frontend deployment URL
 ]);
 
 // Stripe webhook (needs raw body)
