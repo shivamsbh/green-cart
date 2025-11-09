@@ -1,0 +1,20 @@
+/* this is google fonts text imported from net to use in our project */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+
+/* Using star below select the all HTML family at a time */
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+/* CSS theme applying to project */
+@theme {
+  --color-primary: #4fbf8b;
+  --color-primary-dull: #44ae7c;
+}
+
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}
